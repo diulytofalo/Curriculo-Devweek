@@ -11,9 +11,9 @@
   .resume {
     width: 1011px;
     height: 1875px;
+    margin: auto;
     margin-top: 32px;
-    margin-left: 60px;
-    margin-right: 60px;
+    margin-bottom: 32px;
     display: grid;
     grid-template-columns: 289px 1fr;
   }
