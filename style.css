@@ -1,127 +1,168 @@
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    text-decoration: none;
-    list-style: none;
-    font-family: 'Cormorant Garamond', serif;
-    font-size: 18pt;
-  }
-  
-  .resume {
-    width: 1011px;
-    height: 1875px;
-    margin: auto;
-    margin-top: 32px;
-    margin-bottom: 32px;
-    display: grid;
-    grid-template-columns: 289px 1fr;
-  }
-  
-  .left-section {
-    height: 100%;
-    width: 100%;
-    background-color: #00204A;
-    color: #D6DBDF;
-  }
-  
-  .profile {
-    text-align: center;
-    height: 390px;
-    border-bottom: #a9b8c3 solid 2px;
-  }
-  
-  .profile-picture {
-    width: 150px;
-    border-radius: 50%;
-    margin-top: 32px;
-  }
-  
-  .name {
-    margin-top: 20px;
-    font-size: 32pt;
-    text-align: center;
-  }
-  
-  .profession {
-    margin-top: 24px;
-    font-size: 19pt;
-    text-align: center;
-    color: #FDB44B;
-  }
-  
-  .contact-info, .skills {
-    margin-left: 20px;
-  }
-  
-  .contact-info-title, .skills-title {
-    margin-top: 60px;
-    margin-bottom: 20px;
-    font-size: 20pt;
-    color: #FDB44B;
-  }
-  
-  .contact-info-text, .skills-text {
-    margin-top: 14px;
-    display: flex;
-    text-align: start;
-  }
-  
-  .icon {
-    height: 25px;
-    width: 25px;
-    margin-right: 10px;
-  }
-  
-  .right-section {
-    height: 100%;
-    width: 100%;
-    background-color: #4B6982;
-    border-top-right-radius: 60px;
-    color: #F1F8FD;
-    text-align: justify;
-  }
-  
-  .about-me, .experience, .education, .certificates, .more-info {
-    margin-left: 32px;
-    margin-right: 34px;
-  }
-  
-  .about-me-title, .experience-title, .education-title, .certificates-title, .more-info-title {
-    margin-top: 60px;
-    margin-bottom: 32px;
-    font-size: 40pt;
-    color: #70C6C7;
-  }
-  
-  .experience-columns, .education-columns, .certificates-columns, .more-info-columns {
-    display: grid;
-    grid-template-columns: 329px 1fr;
-  }
-  
-  .experience-local, .education-local, .certificates-local, .more-info-local {
-    font-size: 25pt;
-    color: #FDB44B;
-  }
-  
-  .experience-info, .education-info, .certificates-info, .more-info-info {
-    font-size: 25pt;
-    color: #FDB44B;
-  }
-  
-  .experience-date, .education-date, .certificates-date, .more-info-date {
-    margin-top: 10px;
-  }
-  
-  .experience-description-box, .education-description-box, .certificates-description-box, .more-info-description-box {
-    border-left: #A5A3A3 3px solid;
-    margin-top: 8px;
-    margin-bottom: 8px;
-  }
-  
-  .experience-description-text, .education-description-text, .certificates-description-text, .more-info-description-text {
-    margin-left: 8px;
-    margin-top: 10px;
-    margin-bottom: 10px;
-    font-size: 16pt;
-  }
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  list-style: none;
+  font-family: 'Cormorant Garamond', serif;
+  font-size: 18pt;
+}
+
+#blue-theme {
+  --left-section-background-color: #00204A;
+  --left-section-text-color: #D6DBDF;
+  --profile-contact-and-skills-border-color: #4B6982;
+  --name-color: #D6DBDF;
+  --profession-color: #FDB44B;
+  --contact-and-skills-title-color: #FDB44B;
+  --right-section-background-color: #4B6982;
+  --right-section-text-color: #F1F8FD;
+  --right-section-title-color: #70C6C7;
+  --local-and-info-color: #FDB44B;
+  --description-border-color: #A5A3A3;
+}
+
+#rose-theme {
+  --left-section-background-color: #FFDEAD;
+  --left-section-text-color: #000000;
+  --profile-contact-and-skills-border-color: #FFF8DC;
+  --name-color: #A0522D;
+  --profession-color: #000000;
+  --contact-and-skills-title-color: #7b2d08;
+  --right-section-background-color: #FFF8DC;
+  --right-section-text-color: #000000;
+  --right-section-title-color: #A0522D;
+  --local-and-info-color: #000000;
+  --description-border-color: #A0522D;
+}
+
+.resume {
+  width: 1011px;
+  height: 1875px;
+  margin: auto;
+  margin-top: 32px;
+  margin-bottom: 32px;
+  display: grid;
+  grid-template-columns: 289px 1fr;
+}
+
+.left-section {
+  height: 100%;
+  width: 100%;
+  background-color: var(--left-section-background-color);
+  color: var(--left-section-text-color);
+}
+
+.profile {
+  text-align: center;
+  height: 408px;
+  border-bottom: var(--profile-contact-and-skills-border-color) solid 3px;
+}
+
+.profile-picture {
+  height: 150px;
+  width: 150px;
+  margin-top: 38px;
+  border-radius: 50%;
+  border: var(--profile-contact-and-skills-border-color) solid 3px;
+}
+
+.name {
+  margin-top: 20px;
+  font-size: 32pt;
+  text-align: center;
+  color: var(--name-color);
+}
+
+.profession {
+  margin-top: 24px;
+  font-size: 19pt;
+  text-align: center;
+  color: var(--profession-color);
+}
+
+.contact-info-box {
+  height: 230px;
+  border-bottom: var(--profile-contact-and-skills-border-color) solid 3px;
+}
+
+.skills-box {
+  height: 408px;
+  border-bottom: var(--profile-contact-and-skills-border-color) solid 3px;
+}
+
+.contact-info, .skills {
+  margin-left: 14px;
+}
+
+.contact-info-title, .skills-title {
+  margin-top: 60px;
+  margin-bottom: 20px;
+  font-size: 21pt;
+  color: var(--contact-and-skills-title-color);
+}
+
+.contact-info-text, .skills-text {
+  margin-top: 14px;
+  display: flex;
+  text-align: start;
+}
+
+.icon {
+  height: 25px;
+  width: 25px;
+  margin-right: 10px;
+}
+
+.right-section {
+  height: 100%;
+  width: 100%;
+  background-color: var(--right-section-background-color);
+  border-top-right-radius: 60px;
+  color: var(--right-section-text-color);
+  text-align: justify;
+}
+
+.about-me, .experience, .education, .certificates, .more-info {
+  margin-left: 32px;
+  margin-right: 34px;
+}
+
+.about-me-title, .experience-title, .education-title, .certificates-title, .more-info-title {
+  margin-top: 60px;
+  margin-bottom: 32px;
+  font-size: 40pt;
+  color: var(--right-section-title-color);
+}
+
+.experience-columns, .education-columns, .certificates-columns, .more-info-columns {
+  display: grid;
+  grid-template-columns: 329px 1fr;
+}
+
+.experience-local, .education-local, .certificates-local, .more-info-local {
+  font-size: 25pt;
+  color: var(--local-and-info-color);
+}
+
+.experience-info, .education-info, .certificates-info, .more-info-info {
+  font-size: 25pt;
+  color: var(--local-and-info-color);
+}
+
+.experience-date, .education-date, .certificates-date, .more-info-date {
+  margin-top: 10px;
+}
+
+.experience-description-box, .education-description-box, .certificates-description-box, .more-info-description-box {
+  border-left: var(--description-border-color) 3px solid;
+  margin-top: 8px;
+  margin-bottom: 8px;
+}
+
+.experience-description-text, .education-description-text, .certificates-description-text, .more-info-description-text {
+  margin-left: 8px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  font-size: 16pt;
+}
