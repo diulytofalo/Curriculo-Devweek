@@ -36,8 +36,8 @@
 }
 
 .resume {
-  width: 808.8px;
-  height: 1500px;
+  width: 832px;
+  height: 1570px;
   margin: auto;
   margin-top: 32px;
   margin-bottom: 32px;
@@ -69,14 +69,12 @@
 .name {
   margin-top: 16px;
   font-size: 25.6pt;
-  text-align: center;
   color: var(--name-color);
 }
 
 .profession {
   margin-top: 19.2px;
   font-size: 15.2pt;
-  text-align: center;
   color: var(--profession-color);
 }
 
@@ -86,7 +84,7 @@
 }
 
 .skills-box {
-  height: 320px;
+  height: 290px;
   border-bottom: var(--profile-contact-and-skills-border-color) solid 3px;
 }
 
@@ -119,49 +117,54 @@
   width: 100%;
   background-color: var(--right-section-background-color);
   border-top-right-radius: 48px;
-  text-align: justify;
 }
 
-.about-me, .experience, .education, .certificates, .more-info {
+.about-me-text {
+  text-align: justify;
+  margin-bottom: 26px;
+}
+
+.about-me, .experience, .formation, .extra-training, .more-info {
   margin-left: 25.6px;
   margin-right: 27.2px;
 }
 
-.about-me-title, .experience-title, .education-title, .certificates-title, .more-info-title {
+.about-me-title, .experience-title, .formation-title, .extra-training-title, .more-info-title {
   margin-top: 48px;
-  margin-bottom: 25.6px;
+  margin-bottom: 20px;
   font-size: 32pt;
   color: var(--right-section-title-color);
 }
 
-.experience-columns, .education-columns, .certificates-columns, .more-info-columns {
+.experience-columns, .formation-columns, .extra-training-columns, .more-info-columns {
   display: grid;
-  grid-template-columns: 263.2px 1fr;
+  grid-template-columns: 290px 1fr;
 }
 
-.experience-local, .education-local, .certificates-local, .more-info-local {
+.experience-local, .formation-local, .extra-training-local, .more-info-local {
+  font-size: 20pt;
+  margin-right: 32px;
+  color: var(--local-and-info-color);
+}
+
+.experience-info, .formation-info, .extra-training-info, .more-info-info {
   font-size: 20pt;
   color: var(--local-and-info-color);
 }
 
-.experience-info, .education-info, .certificates-info, .more-info-info {
-  font-size: 20pt;
-  color: var(--local-and-info-color);
-}
-
-.experience-date, .education-date, .certificates-date, .more-info-date {
+.experience-date, .formation-date, .extra-training-date, .more-info-date {
   margin-top: 8px;
 }
 
-.experience-description-box, .education-description-box, .certificates-description-box, .more-info-description-box {
+.experience-description-box, .formation-description-box, .extra-training-description-box, .more-info-description-box {
   border-left: var(--description-border-color) 3px solid;
   margin-top: 6.4px;
   margin-bottom: 6.4px;
 }
 
-.experience-description-text, .education-description-text, .certificates-description-text, .more-info-description-text {
+.experience-description-text, .formation-description-text, .extra-training-description-text, .more-info-description-text {
   margin-left: 6.4px;
-  margin-top: 8px;
-  margin-bottom: 8px;
+  margin-top: 10px;
   font-size: 12.8pt;
+  margin-bottom: 26px;
 }
