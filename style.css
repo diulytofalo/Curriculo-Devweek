@@ -53,7 +53,7 @@
 
 .profile {
   text-align: center;
-  height: 326.4px;
+  height: 325px;
   border-bottom: var(--profile-contact-and-skills-border-color) solid 3px;
 }
 
@@ -79,12 +79,12 @@
 }
 
 .contact-info-box {
-  height: 184px;
+  height: 215px;
   border-bottom: var(--profile-contact-and-skills-border-color) solid 3px;
 }
 
 .skills-box {
-  height: 290px;
+  height: 282px;
   border-bottom: var(--profile-contact-and-skills-border-color) solid 3px;
 }
 
