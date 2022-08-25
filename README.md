@@ -1,7 +1,21 @@
-# curriculo_devweek_diulytofalo.github.io
+# Currículo Jornada Dev (devweek)
 
-A partir das aulas assistidas na Jordana Dev (devweek), aprendemos a estruturar um currículo utilizando as linguagens HTML5 e CSS3.
+Currículo construído em formato web e com elementos clicáveis, utilizando as linguagens HTML5 e CSS3.
 
-Exploramos também algumas ferramentas das plataformas Git e Github, de forma que o presente repositório é apenas uma das representações do aprendizado adquirido nessa maratona.
+### O que aprendi:
 
-<img width="300" alt="image" src="https://user-images.githubusercontent.com/106192001/182683126-963e3f5f-ae74-4213-8eec-1af81a83485e.png">
+Durante meu primeiro mês como aspirante a desenvolvedora Front-End, com muita curiosidade e vontade de aprender, me increvi em diversos eventos de imersão on-line. Entre aqueles que me proporcionaram além do aprendizado, um portifólio para chamar de meu, está a Jornada Dev (Dev Week). Organizada pela EBAC: Escola Britânica de Artes Criativas e Tecnologia, pude aprender:
+
+- Construção das estruturas HTML e CSS baseadas em um design pronto, disponibilizado no Figma;
+- Aplicação de layout em colunas, utilizando as tecnologias Grid e Grid-template-columns;
+- Implementação de ícones em formato SVG.
+
+### Visualização:
+
+<img width="300" alt="image" src="https://user-images.githubusercontent.com/106192001/186544047-cfe8ca13-6680-4231-9206-cab81b318c34.png">
+
+OBS: Algumas das informações do currículo são fictícias, colocadas como metas a ser alcançadas em curto e médio prazo.
+
+### Créditos:
+
+- EBAC - https://ebaconline.com.br/
